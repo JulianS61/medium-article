@@ -1,0 +1,30 @@
+.banner {
+  background-image: url("https://source.unsplash.com/random/1000x500");
+  background-size: cover;
+  height: 300px;
+  color: white;
+  padding: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-title-center {
+  width: 700px;
+}
+
+@media(max-width: 1200px) {
+  .banner-title-center {
+    width: 700px;
+  }
+}
+@media(max-width: 768px) {
+  .banner-title-center {
+    width: 500px;
+  }
+}
+@media(max-width: 576px) {
+  .banner-title-center {
+    width: 300px;
+  }
+}

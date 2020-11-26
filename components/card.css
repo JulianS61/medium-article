@@ -1,0 +1,47 @@
+.card-container {
+  margin: 50px auto;
+  width: 900px;
+}
+
+.card-container h2 {
+  color: #999999;
+}
+
+.card-container p {
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.card-container a {
+  font-size: 24px;
+  text-decoration: none;
+  color: #666666;
+  background-color: #7CFFB322;
+}
+
+.card-container a:hover {
+  background-color: #7CFFB3;
+}
+
+@media(max-width: 1200px) {
+  .card-container {
+    width: 900px;
+  }
+}
+@media(max-width: 992px) {
+  .card-container {
+    width: 700px;
+  }
+}
+@media(max-width: 768px) {
+  .card-container {
+    width: 500px;
+  }
+}
+@media(max-width: 576px) {
+  .card-container {
+    width: 300px;
+  }
+}
